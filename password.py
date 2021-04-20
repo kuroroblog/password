@@ -34,6 +34,7 @@ def announce():
 def pwStrengthTest(password):
     # search() : https://note.nkmk.me/python-re-match-search-findall-etc/
     # 正規表現の先頭のr(raw文字列である。エスケープ文字列が存在しないことを意味する。) : https://docs.pyq.jp/python/library/string.html#raw
+    # 正規表現 : https://userweb.mnet.ne.jp/nakama/
     # エスケープ文字 : https://e-words.jp/w/%E3%82%A8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%97%E5%87%A6%E7%90%86.html#:~:text=%E3%82%A8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%97%E5%87%A6%E7%90%86%E3%81%A8%E3%81%AF%E3%80%81%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0,%E3%82%92%E3%80%8C%E3%82%A8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%97%E6%96%87%E5%AD%97%E3%80%8D%E3%81%A8%E3%81%84%E3%81%86%E3%80%82
     # re.search(re.compile(r'[A-Z]+'), password) : passwordの文字列内にA~Zの文字が1回以上存在するのか確認している
     # re.search(re.compile(r'[a-z]+'), password) : passwordの文字列内にa~zの文字が1回以上存在するのか確認している
